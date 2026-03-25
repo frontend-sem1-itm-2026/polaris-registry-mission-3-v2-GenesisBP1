@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const fullName = `${firstName} ${lastNameP} ${lastNameM}`.trim();
         return fullName.length >= 10;
       },
-      message: 'El nombre completo debe tener al menos 10 caracteres.'
+      message: 'El nombre debe ser validdo mas de 10 caracteres.'
     },
     {
       id: 'phone',
